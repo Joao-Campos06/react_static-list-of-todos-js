@@ -1,6 +1,6 @@
 export const UserInfo = ({ user }) => {
   if (!user || !user.email) {
-    return null; // ou exibir uma mensagem padrão
+    return null;
   }
 
   return (
